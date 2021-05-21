@@ -1,0 +1,119 @@
+/*CSS DOCUMENT*/
+
+@import url("https://use.typekit.net/nxw2veg.css");
+
+img {
+    width: 100%; 
+}
+
+div.spread {
+    width: 90%;
+    margin: auto;
+}
+
+figure {
+    margin-top: 3em;
+    margin-bottom: 3em;
+}
+
+nav ul {
+	padding: 0;
+}
+
+nav ul li {
+	display: inline;
+	text-transform: uppercase;
+	font-family: aktiv-grotesk-extended, sans-serif;
+	letter-spacing: .05em;
+	margin: 1em 2em 2em 2.5em;
+
+}
+
+nav ul li a {
+	color: #000000;
+	text-decoration: none;
+}
+
+nav ul li a:hover {
+	color: #B2A496;
+}
+
+ul {
+    list-style: none;
+}
+
+h1 {
+    width: 4em;
+    margin-right: auto;
+    margin: 1em 1em 0em 1.3em;
+}
+
+h2 {
+    font-family: aktiv-grotesk-extended, sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    text-transform: uppercase;
+    margin: 2em 0em 1em 1.5em;
+}
+
+h3 {
+    font-family: aktiv-grotesk-extended, sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    text-transform: uppercase;
+    margin: 1em 1em 1em 3em;
+}
+
+h4 {
+    font-family: aktiv-grotesk-extended, sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    margin: 1em 1em 1em 1em;
+}
+
+p {
+    font-family: poppins, sans-serif;
+    font-weight: 300;
+    font-style: normal; 
+	margin: 1em 2em 2em 2.5em;
+    }
+
+p.location {
+	margin-top: 1em;
+    margin-bottom: .1em;
+}
+
+p.street {
+    margin-bottom: 0em;
+}
+
+p.phone {
+    margin-bottom: 2em;
+}
+
+p.price {
+    margin-bottom: 2em;
+    margin-left: 1em;
+}
+
+p.menu {
+    margin-left:1em;
+    margin-bottom: 1em;
+}
+
+footer {
+    font-family: aktiv-grotesk-thin, sans-serif;
+    letter-spacing: 0.05em;
+    background-color: #B2A496;
+	color: rgb(255, 248, 244);
+    padding: 1em 0em 1em 2.4em;
+}
+
+@media screen and (min-width: 50em){
+    html {
+        max-width: 50em;
+        margin: auto;
+    }
+}
+
+/*Please don’t change this CSS stylesheet for the content hierarchy assginment */
